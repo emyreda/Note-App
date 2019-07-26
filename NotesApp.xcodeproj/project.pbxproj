@@ -13,6 +13,8 @@
 		0408E64C22DF4A2400EABFC0 /* NotesApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0408E64A22DF4A2400EABFC0 /* NotesApp.xcdatamodeld */; };
 		0408E64E22DF4A2500EABFC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0408E64D22DF4A2500EABFC0 /* Assets.xcassets */; };
 		0408E65122DF4A2500EABFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0408E64F22DF4A2500EABFC0 /* LaunchScreen.storyboard */; };
+		0408E65922DF500900EABFC0 /* VClistNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0408E65822DF500900EABFC0 /* VClistNotes.swift */; };
+		0408E65B22DF634900EABFC0 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0408E65A22DF634900EABFC0 /* NoteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0408E64D22DF4A2500EABFC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0408E65022DF4A2500EABFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0408E65222DF4A2500EABFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0408E65822DF500900EABFC0 /* VClistNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VClistNotes.swift; sourceTree = "<group>"; };
+		0408E65A22DF634900EABFC0 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,9 @@
 		0408E64222DF4A2400EABFC0 /* NotesApp */ = {
 			isa = PBXGroup;
 			children = (
+				0408E65E22DF85B500EABFC0 /* controllers */,
+				0408E65D22DF859800EABFC0 /* cells */,
 				0408E64322DF4A2400EABFC0 /* AppDelegate.swift */,
-				0408E64522DF4A2400EABFC0 /* ViewController.swift */,
 				0408E64722DF4A2400EABFC0 /* Main.storyboard */,
 				0408E64D22DF4A2500EABFC0 /* Assets.xcassets */,
 				0408E64F22DF4A2500EABFC0 /* LaunchScreen.storyboard */,
@@ -65,6 +70,23 @@
 				0408E64A22DF4A2400EABFC0 /* NotesApp.xcdatamodeld */,
 			);
 			path = NotesApp;
+			sourceTree = "<group>";
+		};
+		0408E65D22DF859800EABFC0 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				0408E65A22DF634900EABFC0 /* NoteCell.swift */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+		0408E65E22DF85B500EABFC0 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0408E64522DF4A2400EABFC0 /* ViewController.swift */,
+				0408E65822DF500900EABFC0 /* VClistNotes.swift */,
+			);
+			name = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +162,8 @@
 			files = (
 				0408E64C22DF4A2400EABFC0 /* NotesApp.xcdatamodeld in Sources */,
 				0408E64622DF4A2400EABFC0 /* ViewController.swift in Sources */,
+				0408E65B22DF634900EABFC0 /* NoteCell.swift in Sources */,
+				0408E65922DF500900EABFC0 /* VClistNotes.swift in Sources */,
 				0408E64422DF4A2400EABFC0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
